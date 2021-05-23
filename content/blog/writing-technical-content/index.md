@@ -80,9 +80,24 @@ renders as
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\\\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
 
+### Shortcodes
+
+**Expand**
+{{< expand `Click me!` "fas fa-bars" "fas fa-ban" >}} Hidden content {{< /expand >}}
+
+**Video**
+{{% youtube 2xkNJL4gJ9E %}}
+
+**Alert**
+{{% alert note %}}Academic supports a Markdown extension for diagrams.{{% /alert %}} 
+
+**Button**
+{{% button href="https://gist.github.com/talves/2d4973064d07c42424cdf56e9bcf31d1#file-link-button-sc-html" class="my-button--raised crazy-button" value="Click Me Real Good" %}}
+
 ### Diagrams
 
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
+{{% youtube 2xkNJL4gJ9E %}}
+{{% alert note %}}Academic supports a Markdown extension for diagrams.{{% /alert %}} You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
 An example **flowchart**:
 
