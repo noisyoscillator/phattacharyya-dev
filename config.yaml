@@ -32,7 +32,6 @@ module:
 backend:
   name: git-gateway
   repo: noisyoscillator/pbhattacharyya-dev
-<<<<<<< HEAD
   branch: main
 =======
   branch: master
