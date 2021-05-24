@@ -29,8 +29,12 @@ module:
 ############################
 ## ADVANCED
 ############################
+backend:
+  name: git-gateway
+  repo: noisyoscillator/pbhattacharyya-dev
+  branch: master
 
-enableGitInfo: false
+enableGitInfo: yes
 summaryLength: 30
 paginate: 10
 enableEmoji: true
