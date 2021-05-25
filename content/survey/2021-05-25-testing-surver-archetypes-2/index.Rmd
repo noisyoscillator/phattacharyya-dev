@@ -18,6 +18,10 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+reading_time: true  # Show estimated reading time?
+share: true  # Show social sharing links?
+profile: true  # Show author profile?
+commentable: false  # Allow visitors to comment? Supported by the Page, Post, and Docs content types.
 ---
 
 **doi:** http://localhost:4321/survey/testing-surver-archetypes-2/

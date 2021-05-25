@@ -4,9 +4,12 @@ diagram: true
 highlight: true
 image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
-  placement: 3
+  placement: 2
 math: true
 title: Writing technical content in Academic
+reading_time: true  # Show estimated reading time?
+share: true  # Show social sharing links?
+profile: true 
 ---
 
 Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.

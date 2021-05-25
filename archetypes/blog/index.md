@@ -27,4 +27,8 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+reading_time: true  # Show estimated reading time?
+share: true  # Show social sharing links?
+profile: true  # Show author profile?
+commentable: false  # Allow visitors to comment? Supported by the Page, Post, and Docs content types.
 ---
