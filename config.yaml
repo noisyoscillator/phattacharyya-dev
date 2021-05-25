@@ -27,15 +27,11 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
 
 ############################
-## ADVANCED
+## SEO
 ############################
-
-enableGitInfo: yes
-summaryLength: 30
-paginate: 10
-enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
+relativeURLS: true
+canonifyURLs: true
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
   event: '/talk/:slug/'
@@ -43,6 +39,16 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+footnotereturnlinkcontents: <sup>^</sup>
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]

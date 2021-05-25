@@ -78,7 +78,7 @@ highlight_languages:
   - r
   - python
   - latex
-math: false
+math: true
 diagram: false
 privacy_pack: false
 edit_page:
@@ -106,7 +106,7 @@ copyright_license:
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
-abstract_length: 135
+abstract_length: 200
 plugins_js: []
 avatar:
   gravatar: false
