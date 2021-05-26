@@ -23,7 +23,8 @@
   {{- end -}}
 
   {{ $scr := .Scratch }}
-
+  {{ template "_internal/opengraph.html" . }}
+  
   {{/* Attempt to load superuser. */}}
   {{ $superuser_name := "" }}
   {{ $superuser_username := "" }}
