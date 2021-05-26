@@ -234,12 +234,12 @@
     <meta name="twitter:site" content="@{{ . }}" />
     <meta name="twitter:creator" content="@{{ . }}" />
   {{ end }}
-  <meta property="og:site_name" content="{{ site.Title }}" />
-  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta name="og:site_name" content="{{ site.Title }}" />
+  <meta name="og:url" content="{{ .Permalink }}" />
   <meta name="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}" />
-  <meta property="og:description" content="{{ $desc }}" />
+  <meta name="og:description" content="{{ $desc }}" />
   {{- with $og_image -}}
-    <meta property="og:image" content="{{ . }}" />
+    <meta name="og:image" content="{{ . }}" />
     <meta name="twitter:image" content="{{ . }}" />
   {{- end -}}
   <meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}" />
