@@ -7,9 +7,9 @@ categories:
 - 教程
 date: "2020-12-13T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: ''
   focal_point: ""
   placement: 2
   preview_only: false
